@@ -16,7 +16,8 @@ gem 'kaminari', '~> 0.13'
 
 group :production do
   # gem 'newrelic_rpm', '~> 3'
-  # gem 'dalli', '~> 1'
+
+gem 'pg'
  end
 
 group :development do
