@@ -17,7 +17,7 @@ gem 'kaminari', '~> 0.13'
 group :production do
   # gem 'newrelic_rpm', '~> 3'
 
-gem 'pg'
+ 
  end
 
 group :development do
@@ -27,7 +27,6 @@ group :development do
   # gem 'guard-rspec', '~> 0.6'
   # gem 'guard-spork', '~> 0.5'
   gem 'rails_best_practices', '~> 1'
-  gem 'sqlite3', '~> 1'
   
 end
 
@@ -39,7 +38,6 @@ end
 
 group :development, :test do
   gem 'foreman', '~> 0.40'
-  gem 'sqlite3', '~> 1', platform: [:ruby, :mswin, :mingw]
   gem 'faker', '~> 1'
   gem 'factory_girl_rails', '~> 1'
 end
