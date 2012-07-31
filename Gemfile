@@ -17,7 +17,6 @@ gem 'kaminari', '~> 0.13'
 group :production do
   # gem 'newrelic_rpm', '~> 3'
   # gem 'dalli', '~> 1'
- gem 'sqlite3', '~> 1'
  end
 
 group :development do
@@ -27,6 +26,8 @@ group :development do
   # gem 'guard-rspec', '~> 0.6'
   # gem 'guard-spork', '~> 0.5'
   gem 'rails_best_practices', '~> 1'
+  gem 'sqlite3', '~> 1'
+  
 end
 
 group :test do
