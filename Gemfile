@@ -15,10 +15,8 @@ gem 'stringex', '~> 1', git: 'git://github.com/rsl/stringex.git'
 gem 'kaminari', '~> 0.13'
 
 group :production do
-  # gem 'newrelic_rpm', '~> 3'
-
- 
- end
+  gem 'pg', '0.12.2'
+end
 
 group :development do
   # gem 'heroku', '~> 2'
@@ -27,6 +25,7 @@ group :development do
   # gem 'guard-rspec', '~> 0.6'
   # gem 'guard-spork', '~> 0.5'
   gem 'rails_best_practices', '~> 1'
+  gem 'sqlite3', '1.3.5'
   
 end
 
