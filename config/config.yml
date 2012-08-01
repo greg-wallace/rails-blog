@@ -5,6 +5,6 @@ login:               <%= ENV["obtvse_login"] ? ENV["obtvse_login"] : "wazina" %>
 password:            <%= ENV["obtvse_password"] ? ENV["obtvse_password"] : "OmyKiss135" %>
 name:                Greg Wallace
 twitter:             wallace_greg
-github:              wazina
+github:              greg-wallace
 email:               greg@icodeforu.com
 google_analytics_id: YOUR_GA_ID
